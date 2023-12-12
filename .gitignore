@@ -1,0 +1,12 @@
+src/data
+env
+#Models
+#Plots 
+#Outputs
+checkpoints
+**/__pycache__
+**.DS_Store
+ModelsPreTrained
+**.diff
+.DS_Store
+OptimizationRuns
