@@ -10,7 +10,7 @@ This shows that DA-GNNs are a promising method for extracting domain-independent
 </p>
 
 <p align="center">
-    <img src="images/SIMBA.png" alt>
+    <img src="simba.png" alt>
 </p>
 <p align="justify">
     <em>Comparison of models without (top row) and with DA (bottom row), trained on the SIMBA suite. Training data graphs include 3D positions, maximum circular velocity, stellar mass, stellar radius, and stellar metallicity. From left to right, we report: a scatter plot for the value of Ω<sub>m</sub> on 1) the same domain, 2) cross-domain and 3) the isomap showing how the GNN is encoding the two datasets in the latent space (SIMBA - triangles, IllustrisTNG - circles). In the non-domain adapted isomap, ellipses highlight regions where distributions lie, showing the difference between simulation encodings that leads to a substantial drop in performance on the cross-domain task.</em>
