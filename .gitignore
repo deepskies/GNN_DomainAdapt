@@ -6,7 +6,7 @@ env
 checkpoints
 **/__pycache__
 **.DS_Store
-ModelsPreTrained
+#ModelsPreTrained
 **.diff
 .DS_Store
 OptimizationRuns
