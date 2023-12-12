@@ -22,12 +22,16 @@ Paper is available on: [arXiv](https://arxiv.org/abs/2311.01588), [NeurIPS works
 
 ## Quickstart
 
-To run full model training: (UPDATE!)
-> python3 train.py --data /path/to/data/folder
+To download the data
+> python3 src/scripts/utils/downloading_data.py
 
-To evaluate a single ""data format of choice"" (UPDATE!)
-> python3 eval.py --data /path/to/data
+To reproduce paper results with the pretrained model files, set the PRETRAINED_MODEL variable to True and run
+> python3 src/assessment.py
 
+To retrain the models abd assess them set the PRETRAINED_MODEL to False and run
+> python3 src/assessment.py
+
+For all optimization runs information and details consult the file hyperparams_optimization.py
 
 ## Citation 
 
